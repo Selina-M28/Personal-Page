@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.persistent-header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+}
+
+.main-nav li {
+  display: inline-block;
+  color: white;
+}
+
+a,
+h1,
+h2,
+h3 {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.logo,
+.main-nav {
+}
