@@ -52,7 +52,7 @@ main-content section hr {
   border: 1px solid black;
   width: 75%;
   margin: 0 auto;
-  background-color: rgb(195, 221, 243);
+  background-color: rgb(252, 243, 234);
   padding: 0 40px 30px 40px;
 }
 .main-content section {
@@ -85,4 +85,20 @@ main-content section hr {
   float: left;
   margin-left: 0;
   margin-right: 10px;
+}
+
+.persistent-footer {
+  text-decoration: none;
+  background-color: rgba(250, 149, 166, 0.589);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+.header-p {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
 }
